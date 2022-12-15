@@ -178,3 +178,35 @@ display: flex;
     left: 0;
     z-index: -1;
  } */
+
+ /* Footer */
+
+#rao10 {
+    width: 20%;
+    float: left;
+
+}
+
+#rao9 {
+    width: 20%;
+    float: left;
+
+}
+
+#rao11 {
+    width: 20%;
+    float: left;
+
+}
+
+#rao12 {
+    width: 20%;
+    float: left;
+
+}
+
+#rao3 {
+    width: 20%;
+    float: right;
+
+}
