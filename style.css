@@ -179,34 +179,95 @@ display: flex;
     z-index: -1;
  } */
 
+
+ /* Middle */
+ #banner >img {
+    width: 100%;
+    height: 400px;
+ }
+
+ #horizontal {
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+ }
+ .homeImg img {
+    width: 200px;
+    height: 200px;
+ }
+
+ 
+#middle{
+    padding: 50px;
+    justify-content: center;
+}
+
+#bank img {
+    /* justify-content: center; */
+    margin-left: 100px;
+    width: 1200px;
+    height: 100px;
+}
+
+#Everybox img {
+    margin-left: 100px;
+    width: 1100px;
+    height: 500px;
+}
+
+
+
  /* Footer */
+
+
+
 
 #rao10 {
     width: 20%;
     float: left;
+    border: 2px solid red;
 
 }
 
 #rao9 {
     width: 20%;
     float: left;
-
+    border: 2px solid red;
 }
 
 #rao11 {
     width: 20%;
     float: left;
-
+    border: 2px solid red;
 }
 
 #rao12 {
     width: 20%;
     float: left;
-
+    border: 2px solid red;
 }
 
 #rao3 {
     width: 20%;
     float: right;
+    border: 2px solid red;
+}
 
+#rao4 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    align-content: center;
+    align-items: center;
+ }
+ 
+.big{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+ #rao8 {
+    display: flex;
+    justify-content: center;
 }
