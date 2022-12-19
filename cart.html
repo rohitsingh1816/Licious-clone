@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <!-- <link rel="stylesheet" href="common.css"> -->
+</head>
+<body>
+    
+
+    <div id="products"> </div>
+</body>
+</html>
+<script>
+    let data=[
+    {
+    img:"https://th.bing.com/th/id/OIP.SGr9L_tWQQNVWTeDTxDN5wHaFW?w=272&h=198&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+    name:"Fresh chicken",
+    dis:"this is best and fresh",
+    price:122,
+    quantity:"50gm",
+    
+}
+
+
+]
+
+class dat{
+   constructor(i,n,d,p,q){
+    this.img=i;
+    this.n=n;
+    this.d=d;
+    this.p=p;
+    this.q=q;
+   }
+}
+
+function get(data){
+
+   data.forEach(function(e){
+    let box=document.createElement("div")
+    box.setAttribute("class","bo")
+
+    let i=document.createElement("img")
+    i.src=e.img;
+    i.setAttribute("class","im")
+
+    let n=document.createElement("p")
+    n.innerText=e.name
+    let d=document.createElement("p")
+    d.innerText=e.dis
+    let p=document.createElement("p")
+    p.innerText=e.price
+    let q=document.createElement("p")
+   q.innerText=e.quantity
+
+   var btn=document.createElement("button")
+           btn.innerText="proceed checkout"
+           btn.setAttribute("class","Addingbag")
+           btn.addEventListener("click", fun)
+
+
+    console.log(i)
+
+    let s1=new dat(i,n,d,p,q)
+
+    box.append(i,n,d,p,q,btn)
+
+    document.getElementById("products").append(box)
+
+   })
+
+}
+
+get(data)
+
+function fun(){
+    window.location.href="payment.html"
+}
+</script>
