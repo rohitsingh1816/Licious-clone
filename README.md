@@ -11,5 +11,5 @@
  - ### Deployment tools:
     `Netlify`
 
-## Frontend Deployed link:
-- Client Side: [https://lacking-berry-1088.netlify.app/](https://lacking-berry-1088.netlify.app/)
+## Deployed link:
+- [https://64df6369cb5135051f56d0c3--relaxed-baklava-48723c.netlify.app/)
