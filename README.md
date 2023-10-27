@@ -1,6 +1,6 @@
  # Licious clone
 
-#### A URL shortener is a tool that can be used to shorten long, complex URLs into shorter, more manageable links. This project is a simple URL shortener service, where users can input a long URL and get a shorter one in return and will also generate QR code for link and UPI.
+#### This project is a clone of the popular Indian meat delivery website Licious.in. It is designed to replicate the website's features and functionality, including ordering and payment processing. The project is built using HTML, CSS, and JavaScript, and is intended as a learning exercise in web development.
 ## Tech Stacks Used: 
   `HTML` `CSS` `JavaScript`
 
